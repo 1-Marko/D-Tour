@@ -19,12 +19,12 @@ p {
 /* Sections */
 
 .colored-section {
-    background-color: #d15a7c;
-    color: #fff;
+    background-color: #111f4d;
+    color: #f2f4f7;
 }
 
 .white-section {
-    background-color: #fff;
+    background-color: #f2f4f7;
 
 }
 
@@ -97,12 +97,12 @@ p {
 }
 
 .icon {
-  color: #d15a7c;
+  color: #111f4d;
   margin-bottom: 1rem;
 }
 
 .icon:hover {
-  color: #cc0066;
+  color: #916dd5;
 }
 
 .youtube {
@@ -168,8 +168,9 @@ p {
 }
 
 .pfoot {
-color: #000;
+color: #fff;
 }
+
 
 @media (max-width: 1028px) {
   #title .container-fluid {
