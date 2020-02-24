@@ -113,7 +113,7 @@ p {
   color: #000;
 }
 
-#gallery {
+#carousel {
   padding-top: 2rem;
 }
 
@@ -150,9 +150,6 @@ p {
   padding: 3% 2%;
 }
 
-#about {
-}
-
 .pabout {
   padding: 7% 15%;
 }
@@ -170,6 +167,28 @@ p {
 .pfoot {
 color: #fff;
 }
+
+#gallery .container-fluid {
+    padding: 3% 15% 7%;
+}
+
+.gallery-image2 {
+  width: 81%;
+}
+
+.ifoot2 {
+  margin: 20px 10px;
+  color: #72549A;
+}
+
+.ifoot2:hover {
+  color: #000;
+}
+
+.pfoot2 {
+  color: #72549A;
+}
+
 
 
 @media (max-width: 1028px) {
