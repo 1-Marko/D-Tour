@@ -1,0 +1,208 @@
+body {
+  font-family: "Montserrat";
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Montserrat";
+  font-weight: 900;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+.container-fluid {
+  padding: 7% 15%;
+}
+
+/* Sections */
+
+.colored-section {
+    background-color: #72549A;
+    color: #f2f4f7;
+}
+
+.white-section {
+    background-color: #f2f4f7;
+
+}
+
+#title .container-fluid {
+  padding: 3% 15% 7%;
+    text-align: left;
+}
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: 'Permanent Marker', cursive;
+  font-size: 2.5rem;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat-Light"
+}
+
+.big-heading {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  color: #fff;
+}
+
+.h2section-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.contact-button {
+  margin: 5% 3% 5% 0;
+}
+
+.mail {
+  color: #000;
+}
+
+.mail:hover {
+  color: blue;
+  text-decoration: none;
+}
+
+.title-image {
+  width: 60%;
+  position: absolute;
+  top: 5rem;
+  right: 15%;
+}
+
+#features {
+  position: relative;
+}
+
+.h3feature-title {
+  font-size: 1.5rem;
+}
+
+.feature-box {
+  padding: 5%;
+}
+
+.icon {
+  color: #72549A;
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: #916dd5;
+}
+
+.youtube {
+  color: #fff;
+}
+
+.youtube:hover {
+  color: #000;
+}
+
+#carousel {
+  padding-top: 2rem;
+}
+
+.h2gallery-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.gallery-image {
+  width: 40%;
+  border-radius: 100%;
+}
+
+
+#partners {
+  padding-bottom: 3%;
+}
+
+.partners-logo {
+  width: 15%;
+  padding: 20px 20px 50px;
+}
+
+#tours {
+  padding: 100px;
+}
+
+.h2price {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.tours-column {
+  padding: 3% 2%;
+}
+
+.pabout {
+  padding: 7% 15%;
+}
+
+
+.ifoot {
+  margin: 20px 10px;
+  color: #fff;
+}
+
+.ifoot:hover {
+  color: #000;
+}
+
+.pfoot {
+color: #fff;
+}
+
+.imgfoot {
+  width: 12%;
+  margin-bottom: 2rem;
+}
+
+
+#gallery .container-fluid {
+    padding: 3% 15% 7%;
+}
+
+.gallery-image2 {
+  width: 81%;
+}
+
+.ifoot2 {
+  margin: 20px 10px;
+  color: #72549A;
+}
+
+.ifoot2:hover {
+  color: #000;
+}
+
+.pfoot2 {
+  color: #72549A;
+}
+
+
+
+@media (max-width: 1028px) {
+  #title .container-fluid {
+    text-align: center;
+  }
+
+  .title-image {
+    position: static;
+  }
+}
